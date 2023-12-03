@@ -336,6 +336,1686 @@
         }
      
       ]
-    }   
+    },
+    {
+      "id": 2,
+      "name": "DOM Manipulation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you select an element by its ID in the DOM?",
+          "options": [
+            "1. getElementById",
+            "2. selectElementById",
+            "3. queryElementById",
+            "4. idSelector"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 2,
+          "question": "What does the acronym 'DOM' stand for?",
+          "options": [
+            "1. Document Object Model",
+            "2. Data Object Model",
+            "3. Document Order Management",
+            "4. Dynamic Object Manipulation"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 3,
+          "question": "Which method is used to create a new HTML element in JavaScript?",
+          "options": [
+            "1. createElement",
+            "2. createNode",
+            "3. newElement",
+            "4. addElement"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 4,
+          "question": "How do you append a child element to another element in the DOM?",
+          "options": [
+            "1. appendChild",
+            "2. addChild",
+            "3. addElement",
+            "4. appendElement"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of the 'innerHTML' property in JavaScript?",
+          "options": [
+            "1. Get the text content of an element",
+            "2. Set the text content of an element",
+            "3. Get the HTML content of an element",
+            "4. Set the HTML content of an element"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 6,
+          "question": "How do you add an event listener to an HTML element in JavaScript?",
+          "options": [
+            "1. addEventListener",
+            "2. attachEvent",
+            "3. listenEvent",
+            "4. eventHandler"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 7,
+          "question": "What does the 'event.preventDefault()' method do?",
+          "options": [
+            "1. Stops the propagation of the event",
+            "2. Cancels the default action of the event",
+            "3. Delays the event execution",
+            "4. Resets the event properties"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 8,
+          "question": "How do you change the CSS style of an element in JavaScript?",
+          "options": [
+            "1. setStyle",
+            "2. modifyStyle",
+            "3. styleChange",
+            "4. setAttribute"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 9,
+          "question": "What is the purpose of the 'querySelector' method in JavaScript?",
+          "options": [
+            "1. Select multiple elements by class",
+            "2. Select an element by ID",
+            "3. Select the first element that matches a CSS selector",
+            "4. Select elements based on data attributes"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 10,
+          "question": "How do you remove an element from the DOM using JavaScript?",
+          "options": [
+            "1. removeNode",
+            "2. deleteElement",
+            "3. removeElement",
+            "4. removeChild"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 11,
+          "question": "What is the purpose of the 'setAttribute' method in JavaScript?",
+          "options": [
+            "1. Set the text content of an element",
+            "2. Set the HTML content of an element",
+            "3. Set a specified attribute on an element",
+            "4. Remove an attribute from an element"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 12,
+          "question": "How do you check if an element has a particular CSS class using JavaScript?",
+          "options": [
+            "1. hasClass",
+            "2. checkClass",
+            "3. containsClass",
+            "4. hasAttribute('class')"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 13,
+          "question": "What does the 'document.readyState' property indicate?",
+          "options": [
+            "1. The visibility state of the document",
+            "2. The loading state of the document",
+            "3. The scroll position of the document",
+            "4. The printing state of the document"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 14,
+          "question": "Which method is used to clone a node in the DOM?",
+          "options": [
+            "1. cloneNode",
+            "2. copyNode",
+            "3. duplicateNode",
+            "4. replicateNode"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 15,
+          "question": "What is event delegation in the context of DOM events?",
+          "options": [
+            "1. Delegating event handling to the document",
+            "2. Delegating events to the parent element",
+            "3. Delegating events to the child elements",
+            "4. Delegating events to specific elements"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 16,
+          "question": "How do you animate an element using JavaScript?",
+          "options": [
+            "1. CSS transitions",
+            "2. setAnimation",
+            "3. animateElement",
+            "4. requestAnimationFrame"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 17,
+          "question": "What is the purpose of the 'contentEditable' attribute in HTML?",
+          "options": [
+            "1. Indicate the document's content is editable",
+            "2. Set the content alignment",
+            "3. Define the document's language",
+            "4. Enable or disable image editing"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 18,
+          "question": "What does the 'stopPropagation' method do in JavaScript?",
+          "options": [
+            "1. Stops the propagation of the event",
+            "2. Prevents the default action of the event",
+            "3. Halts the execution of the event handler",
+            "4. Removes the event listener"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 19,
+          "question": "How do you dynamically create a new script element and add it to the DOM?",
+          "options": [
+            "1. document.createElement('script')",
+            "2. createScriptElement()",
+            "3. newScript()",
+            "4. addScriptElement()"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 20,
+          "question": "What does the 'offsetWidth' property of an element represent?",
+          "options": [
+            "1. The width of the element including borders",
+            "2. The width of the element excluding borders",
+            "3. The width of the element including margins",
+            "4. The width of the element excluding padding"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 21,
+          "question": "How do you check if an element has a specific attribute using JavaScript?",
+          "options": [
+            "1. hasAttribute",
+            "2. checkAttribute",
+            "3. containsAttribute",
+            "4. hasAttribute('specific')"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 22,
+          "question": "What is the purpose of the 'parentElement' property in JavaScript?",
+          "options": [
+            "1. Access the parent node of an element",
+            "2. Change the parent of an element",
+            "3. Check if an element has a parent",
+            "4. Remove the parent of an element"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 23,
+          "question": "How do you set the text content of an element using JavaScript?",
+          "options": [
+            "1. setTextContent",
+            "2. updateText",
+            "3. innerText",
+            "4. textContent"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 24,
+          "question": "What is the purpose of the 'dataset' property in JavaScript?",
+          "options": [
+            "1. Access data attributes of an element",
+            "2. Set data attributes for an element",
+            "3. Modify CSS properties of an element",
+            "4. Add custom data to the DOM"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 25,
+          "question": "How do you check if an element is hidden using JavaScript?",
+          "options": [
+            "1. isHidden",
+            "2. element.hidden",
+            "3. isVisible",
+            "4. element.style.visibility === 'hidden'"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 26,
+          "question": "What is the purpose of the 'focus' method in JavaScript?",
+          "options": [
+            "1. Set focus to the next element",
+            "2. Trigger a click event",
+            "3. Scroll to a specific element",
+            "4. Set focus to the current element"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 27,
+          "question": "How do you change the value of an input element using JavaScript?",
+          "options": [
+            "1. inputElement.value",
+            "2. inputElement.setValue()",
+            "3. inputElement.changeValue()",
+            "4. inputElement.updateValue()"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 28,
+          "question": "What does the 'scrollHeight' property of an element represent?",
+          "options": [
+            "1. The height of the viewport",
+            "2. The height of the element including padding",
+            "3. The height of the element including margins",
+            "4. The total height of the element's content, including overflow"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 29,
+          "question": "How do you dynamically load an external JavaScript file in the browser?",
+          "options": [
+            "1. importScript",
+            "2. requireScript",
+            "3. loadScript",
+            "4. document.createElement('script')"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 30,
+          "question": "What is the purpose of the 'innerText' property in JavaScript?",
+          "options": [
+            "1. Set the text content of an element",
+            "2. Get the text content of an element",
+            "3. Set the HTML content of an element",
+            "4. Get the HTML content of an element"
+          ],
+          "answer": "2"
+        }        
+      ]
+    },
+    {
+      "id": 3,
+      "name": "JavaScript Objects",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you add a new property to an object in JavaScript?",
+          "options": [
+            "1. obj.addNewProperty('name', 'value')",
+            "2. obj['name'] = 'value'",
+            "3. obj.addProperty('name', 'value')",
+            "4. obj.newProperty('name', 'value')"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
+          "options": [
+            "1. Retrieve an array of an object's property names",
+            "2. Add new keys to an object",
+            "3. Remove keys from an object",
+            "4. Check if an object has a specific key"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 3,
+          "question": "How do you iterate over the properties of an object in JavaScript?",
+          "options": [
+            "1. for...of loop",
+            "2. forEach loop",
+            "3. for...in loop",
+            "4. while loop"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 4,
+          "question": "What is the purpose of the 'hasOwnProperty' method in JavaScript?",
+          "options": [
+            "1. Check if an object has a specific property",
+            "2. Add a new property to an object",
+            "3. Remove a property from an object",
+            "4. Retrieve all properties of an object"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 5,
+          "question": "How do you delete a property from an object in JavaScript?",
+          "options": [
+            "1. obj.removeProperty('name')",
+            "2. delete obj['name']",
+            "3. obj.deleteProperty('name')",
+            "4. obj.del('name')"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 6,
+          "question": "What is the purpose of the 'Object.values()' method in JavaScript?",
+          "options": [
+            "1. Retrieve an array of an object's property values",
+            "2. Add new values to an object",
+            "3. Remove values from an object",
+            "4. Check if an object has a specific value"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 7,
+          "question": "What is the difference between 'let', 'const', and 'var' when declaring variables?",
+          "options": [
+            "1. No difference, they are interchangeable",
+            "2. 'let' is block-scoped, 'const' is used for constants, 'var' is function-scoped",
+            "3. 'let' is used for constants, 'const' is block-scoped, 'var' is function-scoped",
+            "4. 'let' is used for global variables, 'const' is block-scoped, 'var' is function-scoped"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 8,
+          "question": "How do you check if a variable is an object in JavaScript?",
+          "options": [
+            "1. typeof variable === 'object'",
+            "2. variable instanceof Object",
+            "3. Object.isObject(variable)",
+            "4. variable.isObject()"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 9,
+          "question": "What is the purpose of the 'Object.freeze()' method in JavaScript?",
+          "options": [
+            "1. Prevent changes to an object's structure",
+            "2. Remove a property from an object",
+            "3. Add a new property to an object",
+            "4. Change the value of a property in an object"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 10,
+          "question": "How do you create an object constructor in JavaScript?",
+          "options": [
+            "1. function createObject()",
+            "2. Object.create()",
+            "3. new Object()",
+            "4. class Object {}"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 11,
+          "question": "What is the purpose of the 'Object.entries()' method in JavaScript?",
+          "options": [
+            "1. Retrieve an array of an object's property entries",
+            "2. Add new entries to an object",
+            "3. Remove entries from an object",
+            "4. Check if an object has a specific entry"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 12,
+          "question": "How do you clone an object in JavaScript?",
+          "options": [
+            "1. obj.copy()",
+            "2. Object.clone(obj)",
+            "3. Object.assign({}, obj)",
+            "4. obj.cloneObject()"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 13,
+          "question": "What is the purpose of the 'Object.seal()' method in JavaScript?",
+          "options": [
+            "1. Allow changes to an object's structure",
+            "2. Remove a property from an object",
+            "3. Add a new property to an object",
+            "4. Prevent new properties from being added or existing properties from being removed"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 14,
+          "question": "How do you access nested properties of an object in JavaScript?",
+          "options": [
+            "1. obj.getProperty('nested.property')",
+            "2. obj['nested']['property']",
+            "3. obj.nested.property",
+            "4. obj.access('nested.property')"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 15,
+          "question": "What is the purpose of the 'Object.getOwnPropertyNames()' method in JavaScript?",
+          "options": [
+            "1. Retrieve an array of an object's own property names",
+            "2. Add new property names to an object",
+            "3. Remove property names from an object",
+            "4. Check if an object has a specific property name"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 16,
+          "question": "How do you check if an object is empty in JavaScript?",
+          "options": [
+            "1. Object.empty(obj)",
+            "2. obj.isEmpty()",
+            "3. Object.keys(obj).length === 0",
+            "4. obj.hasContent()"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 17,
+          "question": "What is the difference between 'Object.create()' and 'new Object()' in JavaScript?",
+          "options": [
+            "1. No difference, they can be used interchangeably",
+            "2. 'Object.create()' creates an object with a specified prototype, 'new Object()' creates an empty object",
+            "3. 'new Object()' creates an object with a specified prototype, 'Object.create()' creates an empty object",
+            "4. 'Object.create()' is deprecated, use 'new Object()' instead"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 18,
+          "question": "What does the 'Object.is()' method do in JavaScript?",
+          "options": [
+            "1. Check if two objects have the same properties",
+            "2. Compare two objects for equality",
+            "3. Create a shallow copy of an object",
+            "4. Check if two values are the same value without type coercion"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 19,
+          "question": "How do you merge two objects in JavaScript?",
+          "options": [
+            "1. Object.merge(obj1, obj2)",
+            "2. obj1 + obj2",
+            "3. Object.assign({}, obj1, obj2)",
+            "4. obj1.merge(obj2)"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 20,
+          "question": "What is the purpose of the 'Object.getOwnPropertyDescriptor()' method in JavaScript?",
+          "options": [
+            "1. Retrieve the descriptor for a specific property",
+            "2. Add a new property to an object",
+            "3. Remove a property from an object",
+            "4. Check if an object has a specific property"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 21,
+          "question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
+          "options": [
+            "1. Retrieve an array of an object's property names",
+            "2. Add new keys to an object",
+            "3. Remove keys from an object",
+            "4. Check if an object has a specific key"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 22,
+          "question": "What is the purpose of the 'Object.values()' method in JavaScript?",
+          "options": [
+            "1. Retrieve an array of an object's property values",
+            "2. Add new values to an object",
+            "3. Remove values from an object",
+            "4. Check if an object has a specific value"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 23,
+          "question": "How do you convert an object to a JSON string in JavaScript?",
+          "options": [
+            "1. JSON.stringify(obj)",
+            "2. obj.toJsonString()",
+            "3. obj.stringifyJson()",
+            "4. JSON.serialize(obj)"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 24,
+          "question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
+          "options": [
+            "1. Retrieve an array of an object's property names",
+            "2. Add new keys to an object",
+            "3. Remove keys from an object",
+            "4. Check if an object has a specific key"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 25,
+          "question": "How do you check if an object is an array in JavaScript?",
+          "options": [
+            "1. Array.check(obj)",
+            "2. obj.isArray()",
+            "3. Array.isArray(obj)",
+            "4. obj.isInstanceOf(Array)"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 26,
+          "question": "What is the purpose of the 'Object.create()' method in JavaScript?",
+          "options": [
+            "1. Create a new object with a specified prototype",
+            "2. Clone an existing object",
+            "3. Create a new object with specific properties",
+            "4. Extend the properties of an object"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 27,
+          "question": "How do you check if an object has a specific method in JavaScript?",
+          "options": [
+            "1. obj.methodExists('methodName')",
+            "2. obj.method('methodName') !== undefined",
+            "3. obj.hasMethod('methodName')",
+            "4. 'methodName' in obj"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 28,
+          "question": "What is the purpose of the 'Object.entries()' method in JavaScript?",
+          "options": [
+            "1. Retrieve an array of an object's property entries",
+            "2. Add new entries to an object",
+            "3. Remove entries from an object",
+            "4. Check if an object has a specific entry"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 29,
+          "question": "How do you prevent adding new properties to an object in JavaScript?",
+          "options": [
+            "1. Object.lock(obj)",
+            "2. Object.preventExtensions(obj)",
+            "3. obj.lock()",
+            "4. obj.preventExtensions()"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 30,
+          "question": "What is the purpose of the 'Object.values()' method in JavaScript?",
+          "options": [
+            "1. Retrieve an array of an object's property values",
+            "2. Add new values to an object",
+            "3. Remove values from an object",
+            "4. Check if an object has a specific value"
+          ],
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Error Handling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of the 'try...catch' statement in JavaScript?",
+          "options": [
+            "1. Execute code regardless of whether an error occurs",
+            "2. Handle asynchronous code",
+            "3. Specify code that may throw an error and handle the error",
+            "4. Prevent the occurrence of errors"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 2,
+          "question": "What is the role of the 'finally' block in a 'try...catch' statement?",
+          "options": [
+            "1. Execute code regardless of whether an error occurs or not",
+            "2. Only execute if an error occurs",
+            "3. Skip execution if an error occurs",
+            "4. Handle asynchronous code"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 3,
+          "question": "How do you throw a custom error in JavaScript?",
+          "options": [
+            "1. throw new Error('Custom error message')",
+            "2. customError.throw('Custom error message')",
+            "3. new CustomError('Custom error message').throw()",
+            "4. error.throw('Custom error message')"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 4,
+          "question": "What is the purpose of the 'Error' object in JavaScript?",
+          "options": [
+            "1. Create a custom error message",
+            "2. Represent an error in the program",
+            "3. Handle asynchronous errors",
+            "4. Stop the execution of the program"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 5,
+          "question": "How do you handle asynchronous errors in JavaScript?",
+          "options": [
+            "1. Use 'try...catch' with async/await",
+            "2. Use callbacks",
+            "3. Asynchronous errors cannot be handled",
+            "4. Use 'try...catch' with promises"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 6,
+          "question": "What is the purpose of the 'window.onerror' event in the browser?",
+          "options": [
+            "1. Triggered when an error occurs in the browser window",
+            "2. Handle errors in server-side code",
+            "3. Stop the execution of the script",
+            "4. Clear the console log"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 7,
+          "question": "How do you catch and handle unhandled promise rejections in JavaScript?",
+          "options": [
+            "1. Use 'try...catch' with async/await",
+            "2. Use 'catch' method on promises",
+            "3. Use 'unhandledrejection' event",
+            "4. Asynchronous errors cannot be handled"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 8,
+          "question": "What is the purpose of the 'Error.stack' property in JavaScript?",
+          "options": [
+            "1. Retrieve the call stack leading to the error",
+            "2. Remove the top element from the call stack",
+            "3. Clear the call stack",
+            "4. Add a new element to the call stack"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 9,
+          "question": "What does the 'finally' block in a 'try...catch' statement allow you to do?",
+          "options": [
+            "1. Handle errors",
+            "2. Execute code regardless of whether an error occurs or not",
+            "3. Skip the 'catch' block",
+            "4. Prevent the occurrence of errors"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 10,
+          "question": "What is the purpose of the 'TypeError' object in JavaScript?",
+          "options": [
+            "1. Represent a generic error",
+            "2. Represent a type-related error",
+            "3. Handle asynchronous errors",
+            "4. Stop the execution of the program"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 11,
+          "question": "How do you handle synchronous errors in JavaScript?",
+          "options": [
+            "1. Use 'try...catch' statement",
+            "2. Use 'catch' method on promises",
+            "3. Use 'unhandledrejection' event",
+            "4. Synchronous errors cannot be handled"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 12,
+          "question": "What is the purpose of the 'console.error()' method in JavaScript?",
+          "options": [
+            "1. Log information to the console",
+            "2. Log errors to the console",
+            "3. Stop the execution of the script",
+            "4. Clear the console log"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 13,
+          "question": "How do you create a custom error class in JavaScript?",
+          "options": [
+            "1. class CustomError extends Error {}",
+            "2. class CustomError implements Error {}",
+            "3. class Error.CustomError {}",
+            "4. class CustomError(error) {}"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 14,
+          "question": "What is the purpose of the 'assert' function in Node.js?",
+          "options": [
+            "1. Log information to the console",
+            "2. Check if a value is true and throw an error if not",
+            "3. Handle asynchronous errors",
+            "4. Stop the execution of the program"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 15,
+          "question": "What is the purpose of the 'process.on('uncaughtException', callback)' event in Node.js?",
+          "options": [
+            "1. Handle asynchronous errors",
+            "2. Handle unhandled promise rejections",
+            "3. Handle uncaught exceptions",
+            "4. Stop the execution of the program"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 16,
+          "question": "What is the purpose of the 'process.on('unhandledRejection', callback)' event in Node.js?",
+          "options": [
+            "1. Handle asynchronous errors",
+            "2. Handle unhandled exceptions",
+            "3. Handle unhandled promise rejections",
+            "4. Stop the execution of the program"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 17,
+          "question": "How do you log errors to a file in Node.js?",
+          "options": [
+            "1. Use 'console.log()'",
+            "2. Use 'fs.writeError()'",
+            "3. Use a logging library like 'winston'",
+            "4. Errors cannot be logged to a file"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 18,
+          "question": "What is the purpose of the 'process.exit()' method in Node.js?",
+          "options": [
+            "1. Log information to the console",
+            "2. Terminate the Node.js process",
+            "3. Handle asynchronous errors",
+            "4. Stop the execution of the script"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 19,
+          "question": "How do you handle errors in an Express.js application?",
+          "options": [
+            "1. Use 'try...catch' statement",
+            "2. Use 'catch' method on promises",
+            "3. Use middleware like 'error-handler'",
+            "4. Errors are automatically handled by Express.js"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 20,
+          "question": "What is the purpose of the 'error' event in Node.js?",
+          "options": [
+            "1. Triggered when an error occurs in the browser window",
+            "2. Log information to the console",
+            "3. Handle errors in server-side code",
+            "4. Clear the console log"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 21,
+          "question": "What is the purpose of the 'process.abort()' method in Node.js?",
+          "options": [
+            "1. Log information to the console",
+            "2. Terminate the Node.js process",
+            "3. Handle asynchronous errors",
+            "4. Stop the execution of the script"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 22,
+          "question": "How do you log errors to the console in Node.js?",
+          "options": [
+            "1. Use 'console.log()'",
+            "2. Use 'console.error()'",
+            "3. Use 'console.writeError()'",
+            "4. Errors cannot be logged to the console"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 23,
+          "question": "What is the purpose of the 'process.on('SIGTERM', callback)' event in Node.js?",
+          "options": [
+            "1. Log information to the console",
+            "2. Handle asynchronous errors",
+            "3. Terminate the Node.js process",
+            "4. Stop the execution of the script"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 24,
+          "question": "How do you handle errors in a React application?",
+          "options": [
+            "1. Use 'try...catch' statement",
+            "2. Use 'catch' method on promises",
+            "3. Use 'ErrorBoundary' component",
+            "4. Errors are automatically handled by React"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 25,
+          "question": "What is the purpose of the 'process.on('exit', callback)' event in Node.js?",
+          "options": [
+            "1. Log information to the console",
+            "2. Handle asynchronous errors",
+            "3. Terminate the Node.js process",
+            "4. Stop the execution of the script"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 26,
+          "question": "How do you catch and handle unhandled rejections globally in Node.js?",
+          "options": [
+            "1. Use 'try...catch' statement",
+            "2. Use 'catch' method on promises",
+            "3. Use 'unhandledrejection' event",
+            "4. Unhandled rejections cannot be caught globally"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 27,
+          "question": "What is the purpose of the 'process.on('unhandledRejection', callback)' event in Node.js?",
+          "options": [
+            "1. Handle asynchronous errors",
+            "2. Handle unhandled exceptions",
+            "3. Handle unhandled promise rejections",
+            "4. Stop the execution of the program"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 28,
+          "question": "How do you log errors to a file in a Node.js application?",
+          "options": [
+            "1. Use 'console.log()'",
+            "2. Use 'fs.writeError()'",
+            "3. Use a logging library like 'winston'",
+            "4. Errors cannot be logged to a file"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 29,
+          "question": "What is the purpose of the 'process.on('SIGINT', callback)' event in Node.js?",
+          "options": [
+            "1. Log information to the console",
+            "2. Handle asynchronous errors",
+            "3. Terminate the Node.js process",
+            "4. Stop the execution of the script"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 30,
+          "question": "How do you handle errors in a Vue.js application?",
+          "options": [
+            "1. Use 'try...catch' statement",
+            "2. Use 'catch' method on promises",
+            "3. Use 'ErrorBoundary' component",
+            "4. Errors are automatically handled by Vue.js"
+          ],
+          "answer": "3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "AJAX and Fetch API",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does AJAX stand for?",
+          "options": [
+            "1. Asynchronous JavaScript and XML",
+            "2. Automated JavaScript and XML",
+            "3. Asynchronous JSON and XML",
+            "4. Automated JSON and XML"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of AJAX in web development?",
+          "options": [
+            "1. To create animated effects on web pages",
+            "2. To make asynchronous HTTP requests",
+            "3. To validate HTML forms",
+            "4. To add styles to web pages"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 3,
+          "question": "Which object is used to perform AJAX requests in JavaScript?",
+          "options": [
+            "1. XMLHttpRequest",
+            "2. JSONRequest",
+            "3. HTTPRequest",
+            "4. FetchRequest"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 4,
+          "question": "What is the role of the 'onreadystatechange' event in AJAX?",
+          "options": [
+            "1. Triggered when an AJAX request is sent",
+            "2. Triggered when an AJAX request is completed",
+            "3. Handle errors in AJAX requests",
+            "4. Stop the execution of the script"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 5,
+          "question": "How do you create a new XMLHttpRequest object in JavaScript?",
+          "options": [
+            "1. new RequestObject('GET', 'url')",
+            "2. new HttpRequest('GET', 'url')",
+            "3. new XMLHttpRequest()",
+            "4. createRequest('GET', 'url')"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 6,
+          "question": "What is the purpose of the 'readyState' property in XMLHttpRequest?",
+          "options": [
+            "1. Check if an AJAX request is ready to be sent",
+            "2. Check the status of an AJAX request",
+            "3. Specify the method of an AJAX request",
+            "4. Handle errors in AJAX requests"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 7,
+          "question": "What is the purpose of the 'status' property in XMLHttpRequest?",
+          "options": [
+            "1. Check if an AJAX request is ready to be sent",
+            "2. Check the status of an AJAX request",
+            "3. Specify the method of an AJAX request",
+            "4. Handle errors in AJAX requests"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 8,
+          "question": "What does the acronym CORS stand for in the context of AJAX requests?",
+          "options": [
+            "1. Cross-Origin Request Sharing",
+            "2. Cross-Origin Resource Sharing",
+            "3. Cross-Origin Request Security",
+            "4. Cross-Origin Resource Security"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 9,
+          "question": "How do you make a simple GET request using Fetch API in JavaScript?",
+          "options": [
+            "1. fetch('url')",
+            "2. fetch('url', { method: 'GET' })",
+            "3. new FetchRequest('GET', 'url')",
+            "4. sendRequest('GET', 'url')"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 10,
+          "question": "What is the purpose of the 'fetch()' function in JavaScript?",
+          "options": [
+            "1. Create a new XMLHttpRequest object",
+            "2. Perform asynchronous HTTP requests",
+            "3. Validate HTML forms",
+            "4. Add styles to web pages"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 11,
+          "question": "How do you send data with a POST request using Fetch API?",
+          "options": [
+            "1. fetch('url')",
+            "2. fetch('url', { method: 'POST' })",
+            "3. fetch('url', { method: 'POST', body: data })",
+            "4. sendRequest('POST', 'url', data)"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 12,
+          "question": "What is the purpose of the 'then()' method in Fetch API?",
+          "options": [
+            "1. Handle asynchronous errors",
+            "2. Specify the method of an AJAX request",
+            "3. Retrieve the response of a Fetch request",
+            "4. Create a new Promise object"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 13,
+          "question": "How do you handle errors in Fetch API?",
+          "options": [
+            "1. Use 'try...catch' statement",
+            "2. Use 'catch' method on promises",
+            "3. Use 'error' event",
+            "4. Errors are automatically handled by Fetch API"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 14,
+          "question": "What is the purpose of the 'Headers' object in Fetch API?",
+          "options": [
+            "1. Specify the method of an AJAX request",
+            "2. Handle errors in AJAX requests",
+            "3. Set headers for an HTTP request",
+            "4. Retrieve the response of a Fetch request"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 15,
+          "question": "How do you add custom headers to a Fetch API request?",
+          "options": [
+            "1. Add headers directly to the URL",
+            "2. Modify the 'Headers' object",
+            "3. Use the 'headers' property in the Fetch options",
+            "4. Set headers in the response object"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 16,
+          "question": "What is the purpose of the 'response.json()' method in Fetch API?",
+          "options": [
+            "1. Parse the response as JSON",
+            "2. Retrieve the response of a Fetch request",
+            "3. Handle errors in Fetch API",
+            "4. Send a JSON payload in the request"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 17,
+          "question": "How do you make an asynchronous Fetch request?",
+          "options": [
+            "1. Use 'async/await' with Fetch",
+            "2. Use 'then()' method on synchronous Fetch",
+            "3. Use 'fetchAsync()' function",
+            "4. Asynchronous Fetch requests are not possible"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 18,
+          "question": "What is the purpose of the 'mode' option in Fetch API?",
+          "options": [
+            "1. Set the request method",
+            "2. Specify the mode of the Fetch request (e.g., 'cors', 'no-cors')",
+            "3. Add custom headers to the request",
+            "4. Retrieve the response of a Fetch request"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 19,
+          "question": "What is the purpose of the 'credentials' option in Fetch API?",
+          "options": [
+            "1. Set the request method",
+            "2. Specify the credentials mode of the Fetch request",
+            "3. Add custom headers to the request",
+            "4. Retrieve the response of a Fetch request"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 20,
+          "question": "What is the default value for the 'credentials' option in Fetch API?",
+          "options": [
+            "1. 'same-origin'",
+            "2. 'include'",
+            "3. 'omit'",
+            "4. 'anonymous'"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 21,
+          "question": "What is the purpose of the 'response.text()' method in Fetch API?",
+          "options": [
+            "1. Parse the response as plain text",
+            "2. Retrieve the response of a Fetch request",
+            "3. Handle errors in Fetch API",
+            "4. Send a text payload in the request"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 22,
+          "question": "How do you cancel a Fetch request?",
+          "options": [
+            "1. Use the 'cancel()' method on the request object",
+            "2. Fetch requests cannot be canceled",
+            "3. Use 'abort()' method on the 'AbortController' object",
+            "4. Set the 'canceled' property in the Fetch options"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 23,
+          "question": "What is the purpose of the 'response.blob()' method in Fetch API?",
+          "options": [
+            "1. Parse the response as a Blob",
+            "2. Retrieve the response of a Fetch request",
+            "3. Handle errors in Fetch API",
+            "4. Send a Blob payload in the request"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 24,
+          "question": "How do you set a timeout for a Fetch request?",
+          "options": [
+            "1. Use the 'timeout' option in Fetch options",
+            "2. Use the 'setInterval()' function",
+            "3. Fetch requests cannot have timeouts",
+            "4. Use the 'setTimeout()' function"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 25,
+          "question": "What is the purpose of the 'response.headers' property in Fetch API?",
+          "options": [
+            "1. Specify the method of an AJAX request",
+            "2. Retrieve the headers of the response",
+            "3. Set headers for an HTTP request",
+            "4. Handle errors in AJAX requests"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 26,
+          "question": "What is the purpose of the 'cache' option in Fetch API?",
+          "options": [
+            "1. Specify the method of an AJAX request",
+            "2. Control how the browser caches the response",
+            "3. Add custom headers to the request",
+            "4. Retrieve the response of a Fetch request"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 27,
+          "question": "How do you make a JSONP request in JavaScript?",
+          "options": [
+            "1. Use 'fetch()' function with 'mode' set to 'jsonp'",
+            "2. Use the 'JSONPRequest' object",
+            "3. JSONP requests are not possible in JavaScript",
+            "4. Use a script tag with a callback function"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 28,
+          "question": "What is the purpose of the 'mode' option in JSONP requests?",
+          "options": [
+            "1. Set the request method",
+            "2. Specify the mode of the Fetch request (e.g., 'cors', 'no-cors')",
+            "3. Control how the browser caches the response",
+            "4. Retrieve the response of a Fetch request"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 29,
+          "question": "How do you handle errors in a JSONP request?",
+          "options": [
+            "1. Use 'try...catch' statement",
+            "2. Use 'catch' method on promises",
+            "3. Use 'error' event",
+            "4. JSONP requests cannot have errors"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 30,
+          "question": "What security concerns are associated with JSONP requests?",
+          "options": [
+            "1. Cross-Site Scripting (XSS)",
+            "2. Cross-Site Request Forgery (CSRF)",
+            "3. Cross-Origin Resource Sharing (CORS)",
+            "4. JSONP requests are not secure"
+          ],
+          "answer": "4"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Advanced",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a closure in JavaScript?",
+          "options": [
+            "1. A function that has no parameters",
+            "2. A function that is defined inside another function",
+            "3. A function that returns an object",
+            "4. A function that has a 'this' keyword"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 2,
+          "question": "What is the 'prototype' in JavaScript?",
+          "options": [
+            "1. The main object of a script",
+            "2. An object that is used for inheritance",
+            "3. A function that creates objects",
+            "4. The root element of the DOM"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 3,
+          "question": "What is the purpose of the 'bind()' method in JavaScript?",
+          "options": [
+            "1. To bind a function to an event",
+            "2. To create a new function with a specific 'this' value",
+            "3. To bind a function to the DOM",
+            "4. To bind a function to a variable"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 4,
+          "question": "What is the difference between 'let' and 'const' in JavaScript?",
+          "options": [
+            "1. 'let' is used for constants, and 'const' is used for variables",
+            "2. 'let' is block-scoped, and 'const' is function-scoped",
+            "3. 'let' can be reassigned, and 'const' cannot be reassigned",
+            "4. 'let' is a primitive data type, and 'const' is an object"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of the 'map()' method in JavaScript?",
+          "options": [
+            "1. To create a new array with the results of calling a provided function on every element in the array",
+            "2. To filter elements in an array based on a provided condition",
+            "3. To check if every element in an array passes a provided condition",
+            "4. To reduce an array to a single value"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 6,
+          "question": "What is the event loop in JavaScript?",
+          "options": [
+            "1. A loop that iterates through events in the DOM",
+            "2. A loop that executes asynchronous tasks in the browser",
+            "3. A loop that handles mouse and keyboard events",
+            "4. A loop that runs in the background to check for updates"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 7,
+          "question": "What is the purpose of the 'reduce()' method in JavaScript?",
+          "options": [
+            "1. To create a new array with the results of calling a provided function on every element in the array",
+            "2. To filter elements in an array based on a provided condition",
+            "3. To check if every element in an array passes a provided condition",
+            "4. To reduce an array to a single value"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 8,
+          "question": "What is the concept of prototypal inheritance in JavaScript?",
+          "options": [
+            "1. Inheriting properties and methods from a class",
+            "2. Creating objects based on a blueprint",
+            "3. Inheriting properties and methods from a prototype object",
+            "4. Implementing interfaces in objects"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 9,
+          "question": "What is a promise in JavaScript?",
+          "options": [
+            "1. A guarantee that a function will return a value",
+            "2. An object representing the eventual completion or failure of an asynchronous operation",
+            "3. A function that is immediately invoked",
+            "4. A function that is used to handle errors"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 10,
+          "question": "What is the purpose of the 'async' and 'await' keywords in JavaScript?",
+          "options": [
+            "1. To define a function that is executed asynchronously",
+            "2. To create a promise that always resolves",
+            "3. To pause the execution of a function until a promise is settled",
+            "4. To handle errors in asynchronous functions"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 11,
+          "question": "What is the concept of event delegation in JavaScript?",
+          "options": [
+            "1. Assigning multiple event listeners to a single element",
+            "2. Delegating events to child elements instead of attaching a handler to each one",
+            "3. Triggering events programmatically",
+            "4. Capturing events before they reach the target element"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 12,
+          "question": "What is the purpose of the 'localStorage' object in web browsers?",
+          "options": [
+            "1. Storing data as cookies",
+            "2. Storing data that persists even after the browser is closed",
+            "3. Storing session-specific data",
+            "4. Storing data on the server"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 13,
+          "question": "What is the difference between '=='' and '===' in JavaScript?",
+          "options": [
+            "1. '==' compares values for equality, '===' compares values and types for equality",
+            "2. '===' compares values for equality, '==' compares values and types for equality",
+            "3. Both '==' and '===' always compare values and types",
+            "4. '==' and '===' are interchangeable and have the same behavior"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 14,
+          "question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
+          "options": [
+            "1. To retrieve an array of the object's property names",
+            "2. To create a new object",
+            "3. To check if an object has a specific property",
+            "4. To remove a property from an object"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 15,
+          "question": "What is the purpose of the 'querySelector()' method in JavaScript?",
+          "options": [
+            "1. To select the first element that matches a specified CSS selector",
+            "2. To select all elements that match a specified CSS selector",
+            "3. To select the parent element of a specified child element",
+            "4. To select elements based on their tag name"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 16,
+          "question": "What is the concept of event bubbling in JavaScript?",
+          "options": [
+            "1. Propagating events from child elements to the parent element",
+            "2. Capturing events before they reach the target element",
+            "3. Triggering events programmatically",
+            "4. Assigning multiple event listeners to a single element"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 17,
+          "question": "What is the purpose of the 'setTimeout()' function in JavaScript?",
+          "options": [
+            "1. To set a timer that executes a function after a specified delay",
+            "2. To execute a function immediately",
+            "3. To repeat a function at regular intervals",
+            "4. To stop the execution of a function"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 18,
+          "question": "What is the purpose of the 'event.preventDefault()' method in JavaScript?",
+          "options": [
+            "1. To stop the propagation of events",
+            "2. To prevent the default behavior of an element",
+            "3. To trigger an event programmatically",
+            "4. To check if an event has been canceled"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 19,
+          "question": "What is the concept of hoisting in JavaScript?",
+          "options": [
+            "1. Declaring variables at the top of their scope",
+            "2. Moving all variable declarations to the top of the script",
+            "3. Elevating function declarations to the top of their scope",
+            "4. Automatically promoting variables to global scope"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 20,
+          "question": "What is the purpose of the 'Promise.all()' method in JavaScript?",
+          "options": [
+            "1. To create a new Promise object",
+            "2. To handle multiple promises concurrently and wait for all of them to settle",
+            "3. To reject a promise if any of the promises in an array is rejected",
+            "4. To resolve a promise if any of the promises in an array is resolved"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 21,
+          "question": "What is the purpose of the 'Object.create()' method in JavaScript?",
+          "options": [
+            "1. To create a new object with a specified prototype object",
+            "2. To create a new object without a prototype",
+            "3. To check if an object has a specific property",
+            "4. To remove a property from an object"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 22,
+          "question": "What is the purpose of the 'Object.freeze()' method in JavaScript?",
+          "options": [
+            "1. To create a new object with a specified prototype object",
+            "2. To prevent new properties from being added to an object",
+            "3. To prevent an object from being modified",
+            "4. To remove a property from an object"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 23,
+          "question": "What is the purpose of the 'Array.filter()' method in JavaScript?",
+          "options": [
+            "1. To create a new array with the results of calling a provided function on every element in the array",
+            "2. To filter elements in an array based on a provided condition",
+            "3. To check if every element in an array passes a provided condition",
+            "4. To reduce an array to a single value"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 24,
+          "question": "What is the purpose of the 'Array.forEach()' method in JavaScript?",
+          "options": [
+            "1. To create a new array with the results of calling a provided function on every element in the array",
+            "2. To filter elements in an array based on a provided condition",
+            "3. To iterate over each element in an array and perform a specified operation",
+            "4. To reduce an array to a single value"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 25,
+          "question": "What is the concept of the event capturing phase in JavaScript?",
+          "options": [
+            "1. Capturing events before they reach the target element",
+            "2. Triggering events programmatically",
+            "3. Propagating events from child elements to the parent element",
+            "4. Assigning multiple event listeners to a single element"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 26,
+          "question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
+          "options": [
+            "1. To retrieve an array of the object's property names",
+            "2. To create a new object",
+            "3. To check if an object has a specific property",
+            "4. To remove a property from an object"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 27,
+          "question": "What is the purpose of the 'Object.values()' method in JavaScript?",
+          "options": [
+            "1. To retrieve an array of the object's property values",
+            "2. To create a new object",
+            "3. To check if an object has a specific property",
+            "4. To remove a property from an object"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 28,
+          "question": "What is the purpose of the 'debounce' function in JavaScript?",
+          "options": [
+            "1. To execute a function repeatedly at a fixed interval",
+            "2. To delay the execution of a function until after a specified time period",
+            "3. To control the rate at which a function is called",
+            "4. To handle asynchronous operations"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 29,
+          "question": "What is the purpose of the 'throttle' function in JavaScript?",
+          "options": [
+            "1. To execute a function repeatedly at a fixed interval",
+            "2. To delay the execution of a function until after a specified time period",
+            "3. To control the rate at which a function is called",
+            "4. To handle asynchronous operations"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 30,
+          "question": "What is the purpose of the 'Object.defineProperty()' method in JavaScript?",
+          "options": [
+            "1. To create a new object",
+            "2. To define a new property on an object or modify an existing property",
+            "3. To check if an object has a specific property",
+            "4. To remove a property from an object"
+          ],
+          "answer": "2"
+        }
+      ]
+    }
   ]
 }
