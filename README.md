@@ -33,6 +33,12 @@ The Quiz Code API is designed to assist developers in enhancing their proficienc
 3. **Integration with Your Application:**
    - Integrate the fetched JSON data into your application as needed, such as creating quizzes or presenting questions to users.
 
+4. **Live Examples and Documentation:**
+   - Explore live examples and detailed documentation on our [GitHub Pages](https://martindocs-bootcamp.github.io/quiz-code-api/). The live page includes:
+      - Interactive quizzes showcasing different types of questions.
+      - Sample code demonstrating how to use the Fetch API to retrieve questions.
+      - Instructions on how to integrate the Quiz Code API into your own projects.
+
 ## Feedback and Contributions
 
 We welcome feedback and contributions to improve the Quiz Code API. If you encounter issues or have suggestions, please open an issue or submit a pull request on our [GitHub repository](https://github.com/martindocs-bootcamp/quiz-code-api/issues).
