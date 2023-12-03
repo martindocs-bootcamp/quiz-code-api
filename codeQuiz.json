@@ -1,0 +1,341 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Basics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the result of adding a number and a string in JavaScript?",
+          "options": [
+            "1. A new data type",
+            "2. A mathematical error",
+            "3. A string concatenation",
+            "4. A boolean value"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the 'let' keyword in JavaScript?",
+          "options": [
+            "1. To declare a constant variable",
+            "2. To declare a block-scoped variable",
+            "3. To declare a global variable",
+            "4. To declare a function"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 3,
+          "question": "Which of the following is a falsy value in JavaScript?",
+          "options": [
+            "1. 0",
+            "2. 'null'",
+            "3. undefined",
+            "4. All of the above"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 4,
+          "question": "How do you comment a single line in JavaScript?",
+          "options": [
+            "1. <!-- Comment -->",
+            "2. // Comment",
+            "3. /* Comment */",
+            "4. ** Comment **"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of the '=== operator in JavaScript?",
+          "options": [
+            "1. Checks for equality without type coercion",
+            "2. Assigns a value to a variable",
+            "3. Checks for equality with type coercion",
+            "4. Compares two strings lexicographically"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 6,
+          "question": "Which keyword is used to declare a function in JavaScript?",
+          "options": [
+            "1. function",
+            "2. def",
+            "3. fun",
+            "4. method"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 7,
+          "question": "What does NaN stand for in JavaScript?",
+          "options": [
+            "1. Not a Number",
+            "2. Null and Negative",
+            "3. New and Negative",
+            "4. None of the above"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 8,
+          "question": "Which loop is used for iterating over the properties of an object?",
+          "options": [
+            "1. for loop",
+            "2. while loop",
+            "3. do...while loop",
+            "4. for...in loop"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 9,
+          "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+          "options": [
+            "1. Returns the data type of a variable",
+            "2. Checks if a variable is defined",
+            "3. Converts a variable to a string",
+            "4. Performs a type conversion"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 10,
+          "question": "Which built-in function is used to convert a string to an integer in JavaScript?",
+          "options": [
+            "1. parseInt()",
+            "2. toInt()",
+            "3. convertToInt()",
+            "4. strToNum()"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 11,
+          "question": "What is the purpose of the 'else' keyword in an 'if...else' statement?",
+          "options": [
+            "1. Marks the end of the 'if' statement",
+            "2. Indicates the 'else' block of code to be executed",
+            "3. Declares a variable",
+            "4. None of the above"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 12,
+          "question": "Which operator is used for exponentiation in JavaScript?",
+          "options": [
+            "1. **",
+            "2. ^",
+            "3. ^^",
+            "4. //"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 13,
+          "question": "What does the 'this' keyword refer to in JavaScript?",
+          "options": [
+            "1. The current function",
+            "2. The global object",
+            "3. The calling object",
+            "4. The previous object"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 14,
+          "question": "Which method is used to remove the last element from an array in JavaScript?",
+          "options": [
+            "1. pop()",
+            "2. shift()",
+            "3. remove()",
+            "4. delete()"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 15,
+          "question": "What is the purpose of the 'continue' statement in a loop?",
+          "options": [
+            "1. Exits the loop immediately",
+            "2. Skips the rest of the code in the loop and continues with the next iteration",
+            "3. Breaks out of the loop",
+            "4. None of the above"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 16,
+          "question": "How do you declare a constant variable in JavaScript?",
+          "options": [
+            "1. const myVar;",
+            "2. let myVar = constant;",
+            "3. constant myVar;",
+            "4. const myVar = 10;"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 17,
+          "question": "What is the result of '5' + 3 in JavaScript?",
+          "options": [
+            "1. 8",
+            "2. '53'",
+            "3. 53",
+            "4. Error"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 18,
+          "question": "Which method is used to join elements of an array into a string in JavaScript?",
+          "options": [
+            "1. join()",
+            "2. concatenate()",
+            "3. merge()",
+            "4. concat()"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 19,
+          "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+          "options": [
+            "1. Returns the data type of a variable",
+            "2. Checks if a variable is defined",
+            "3. Converts a variable to a string",
+            "4. Performs a type conversion"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 20,
+          "question": "What is the output of typeof typeof undefined in JavaScript?",
+          "options": [
+            "1. 'undefined'",
+            "2. 'string'",
+            "3. 'object'",
+            "4. 'number'"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 21,
+          "question": "Which function is used to print a message to the console in JavaScript?",
+          "options": [
+            "1. console.log()",
+            "2. print()",
+            "3. log()",
+            "4. write()"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 22,
+          "question": "What is the purpose of the 'Array.isArray()' method in JavaScript?",
+          "options": [
+            "1. Checks if a variable is an array",
+            "2. Adds elements to an array",
+            "3. Removes elements from an array",
+            "4. Creates a new array"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 23,
+          "question": "Which event occurs when a user clicks on an HTML element?",
+          "options": [
+            "1. onmouseover",
+            "2. onclick",
+            "3. onsubmit",
+            "4. onchange"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 24,
+          "question": "What is the purpose of the 'return' statement in a function?",
+          "options": [
+            "1. Ends the function's execution",
+            "2. Specifies the value to be returned from the function",
+            "3. Declares a variable",
+            "4. Calls another function"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 25,
+          "question": "How do you declare a multi-line comment in JavaScript?",
+          "options": [
+            "1. <!-- Comment -->",
+            "2. // Comment",
+            "3. /* Comment */",
+            "4. ** Comment **"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 26,
+          "question": "What is the purpose of the 'splice()' method in JavaScript?",
+          "options": [
+            "1. Adds elements to the beginning of an array",
+            "2. Removes elements from an array",
+            "3. Combines two arrays",
+            "4. Sorts the elements of an array"
+          ],
+          "answer": "2"
+        },
+        {
+          "id": 27,
+          "question": "How do you convert a string to lowercase in JavaScript?",
+          "options": [
+            "1. toLowerCase()",
+            "2. lower()",
+            "3. caseLower()",
+            "4. convertToLower()"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 28,
+          "question": "Which method is used to find the index of a specified element in an array?",
+          "options": [
+            "1. indexOf()",
+            "2. findIndex()",
+            "3. search()",
+            "4. getIndex()"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 29,
+          "question": "What is the purpose of the 'break' statement in a loop?",
+          "options": [
+            "1. Exits the loop immediately",
+            "2. Skips the rest of the code in the loop and continues with the next iteration",
+            "3. Breaks out of the loop",
+            "4. None of the above"
+          ],
+          "answer": "1"
+        },
+        {
+          "id": 30,
+          "question": "Which method is used to convert a string to uppercase in JavaScript?",
+          "options": [
+            "1. toUpperCase()",
+            "2. upperCase()",
+            "3. convertUpperCase()",
+            "4. stringUppercase()"
+          ],
+          "answer": "1"
+        }
+     
+      ]
+    }   
+  ]
+}
